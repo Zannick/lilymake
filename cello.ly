@@ -1,66 +1,66 @@
 \include "header.ly"
 
 cello = \relative c {
-	\set Staff.instrumentName = "Violoncello  "
-	\clef bass
-	\maintheme
-	r1 r2 <b g'>8\f\downbow r r4
+    \set Staff.instrumentName = "Violoncello  "
+    \clef bass
+    \maintheme
+    r1 r2 <b g'>8\f\downbow r r4
 
-	\fullorchpizz
-	e4.\mf\downbow c8~ c4 g r8 c\downbow r d r cis c r %\break
-	\times 2/3 { c4 e g } c b8 c r a r e f d r4
-	e4. c8~ c4 g r8 c r d r cis c r
-	\times 2/3 { c4 e g } c b8 c r a r e f d r4
+    \fullorchpizz
+    e4.\mf\downbow c8~ c4 g r8 c\downbow r d r cis c r %\break
+    \times 2/3 { c4 e g } c b8 c r a r e f d r4
+    e4. c8~ c4 g r8 c r d r cis c r
+    \times 2/3 { c4 e g } c b8 c r a r e f d r4
 
-	r4 c'8 b b fis r g r e f? a r f a b
-	r4 c8 b b fis r <g c,>\div r <g f'?> r <g f'> <g f'> r r4
-	r4 c8 b b fis r g r e f a r f a b
-	r4 <gis, dis'>8-> r r <ais d>-> r4 <e c'>8-> r8 r4 r2
+    r4 c'8 b b fis r g r e f? a r f a b
+    r4 c8 b b fis r <g c,>\div r <g f'?> r <g f'> <g f'> r r4
+    r4 c8 b b fis r g r e f a r f a b
+    r4 <gis, dis'>8-> r r <ais d>-> r4 <e c'>8-> r8 r4 r2
 
-	f'8\downbow f r f r f g r a f r e c2
-	f8 f r f r f g r a r r4 r2
-	f8 f r f r f g r a f r e c2
-	e8 e r e r c e r <b d g>\div r r4 <b d g>8 r r4
+    f'8\downbow f r f r f g r a f r e c2
+    f8 f r f r f g r a r r4 r2
+    f8 f r f r f g r a f r e c2
+    e8 e r e r c e r <b d g>\div r r4 <b d g>8 r r4
 
-	e8 c r g r4 gis8 r a f' r f a, r r4
-	\times 2/3 { b4 f' f } \times 2/3 { f e d } c8 a r a g r r4
-	e'8 c r g r4 gis8 r a f' r f a, r r4
-	\times 2/3 { b4 f' f } \times 2/3 { f e d } c4 r r2
+    e8 c r g r4 gis8 r a f' r f a, r r4
+    \times 2/3 { b4 f' f } \times 2/3 { f e d } c8 a r a g r r4
+    e'8 c r g r4 gis8 r a f' r f a, r r4
+    \times 2/3 { b4 f' f } \times 2/3 { f e d } c4 r r2
 
-	\castletheme
-	\times 2/3 { g8\mf( c des) } r4 r2
-	\time 2/4
-	r2
-	\time 4/4
-	r2 r4 f,4\mp\upbow g1\downbow
-	r2 r4 f4\upbow g1\downbow
-	
-	aes2 f4 c d f2.
-	r4 f g c <g aes'>2-> g->
+    \castletheme
+    \times 2/3 { g8\mf( c des) } r4 r2
+    \time 2/4
+    r2
+    \time 4/4
+    r2 r4 f,4\mp\upbow g1\downbow
+    r2 r4 f4\upbow g1\downbow
+    
+    aes2 f4 c d f2.
+    r4 f g c <g aes'>2-> g->
 
-	r2 <f' aes>4->\ff <g b>-> r2 <f aes>4-> <g b>->
-	<f aes>4-> <g b>-> <aes c>-> <ges bes>->
-	<g! b>1-> f'8\mf\>( d b g) f( d b g\mp)
+    r2 <f' aes>4->\ff <g b>-> r2 <f aes>4-> <g b>->
+    <f aes>4-> <g b>-> <aes c>-> <ges bes>->
+    <g! b>1-> f'8\mf\>( d b g) f( d b g\mp)
 
-	c,1\mf aes' f g
-	\cresc c4 c'\! c, c' aes, aes' aes, aes' f, f' f, f' g, g' g, g'
-	
-	c,8\mf\<( ees g c)\! c\>( g ees c)\!
-	aes\<( c ees ges)\! aes\>( ges ees c)\!
-	g(\simbelow c ees g) g( ees c g)
-	g( b d g) g( d b g)
-	c( ees g c) c( g ees c)
-	b( d g b) b( g d b)
-	g( b d g) g( d b g)
-	c( ees g c) c( g ees c)
-	aes( c ees ges) aes( ges ees c)
-	g( c ees g) g( ees c g)
-	g( c ees g) g( ees c g)
-	g( c ees g) g( ees c g)
-	<ees g>1->\f(
+    c,1\mf aes' f g
+    \cresc c4 c'\! c, c' aes, aes' aes, aes' f, f' f, f' g, g' g, g'
+    
+    c,8\mf\<( ees g c)\! c\>( g ees c)\!
+    aes\<( c ees ges)\! aes\>( ges ees c)\!
+    g(\simbelow c ees g) g( ees c g)
+    g( b d g) g( d b g)
+    c( ees g c) c( g ees c)
+    b( d g b) b( g d b)
+    g( b d g) g( d b g)
+    c( ees g c) c( g ees c)
+    aes( c ees ges) aes( ges ees c)
+    g( c ees g) g( ees c g)
+    g( c ees g) g( ees c g)
+    g( c ees g) g( ees c g)
+    <ees g>1->\f(
 
-	\castlethemetwo
-	c1~)\p c~ c~ c
+    \castlethemetwo
+    c1~)\p c~ c~ c
 
     \time 3/4
     c2. d ees d c d ees d

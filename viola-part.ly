@@ -11,8 +11,8 @@
 }
 
 \score {
-	\new StaffGroup
-	\relative <<
+    \new StaffGroup
+    \relative <<
         \new Staff \with {
             shortInstrumentName = \markup { \tiny "Solo " }
         }

@@ -1,57 +1,57 @@
 \include "header.ly"
 
 bass = \relative c' {
-	\set Staff.instrumentName = "Doublebass "
-	\clef bass
-	\maintheme
-	R1 r2 g,\mf\pizz
+    \set Staff.instrumentName = "Doublebass "
+    \clef bass
+    \maintheme
+    R1 r2 g,\mf\pizz
 
-	g'4.\f e8~ e4 c r8 f4 g fis8 f4 
-	\times 2/3 { e4 g c } f, d8 e~ e c4 a8 b g4 r8
-	g'4. e8~ e4 c r8 f4 g fis8 f4
-	\times 2/3 { e4 g c } f, d8 e~ e c4 a8 b g4 r8
+    g'4.\f e8~ e4 c r8 f4 g fis8 f4 
+    \times 2/3 { e4 g c } f, d8 e~ e c4 a8 b g4 r8
+    g'4. e8~ e4 c r8 f4 g fis8 f4
+    \times 2/3 { e4 g c } f, d8 e~ e c4 a8 b g4 r8
 
-	c4 r8 g'4 r8 c4 f,4 r8 c'4 r8 f,4
-	c4 r8 e4 r8 g, c r g' r g g r g, r
-	c4 r8 g'4 r8 c4 f,4 r8 c'4 r8 f,4
-	c4 gis' r8 ais4 r8 c4 r8 g?4 r8 c,4
+    c4 r8 g'4 r8 c4 f,4 r8 c'4 r8 f,4
+    c4 r8 e4 r8 g, c r g' r g g r g, r
+    c4 r8 g'4 r8 c4 f,4 r8 c'4 r8 f,4
+    c4 gis' r8 ais4 r8 c4 r8 g?4 r8 c,4
 
-	gis4 r8 dis'4 r8 gis4 g? r8 c,4 r8 g?4
-	gis4 r8 dis'4 r8 gis4 g? r8 c,4 r8 g?4
-	gis4 r8 dis'4 r8 gis4 g? r8 c,4 r8 g?4
-	e'8 e4 e8 r c e r g2 g,
-	
-	e'2 g, f' g, \times 2/3 { g'2 a a } g8 e r c g2
-	e'2 g, f' g, \times 2/3 { g'2 a a4 g } c,2 r2
+    gis4 r8 dis'4 r8 gis4 g? r8 c,4 r8 g?4
+    gis4 r8 dis'4 r8 gis4 g? r8 c,4 r8 g?4
+    gis4 r8 dis'4 r8 gis4 g? r8 c,4 r8 g?4
+    e'8 e4 e8 r c e r g2 g,
+    
+    e'2 g, f' g, \times 2/3 { g'2 a a } g8 e r c g2
+    e'2 g, f' g, \times 2/3 { g'2 a a4 g } c,2 r2
 
-	\castletheme
-	R1
-	\time 2/4
-	r2
-	\time 4/4
-	r2 r4 f,\mp\upbow\arco g1\downbow
-	r2 r4 f\upbow g1\downbow
+    \castletheme
+    R1
+    \time 2/4
+    r2
+    \time 4/4
+    r2 r4 f,\mp\upbow\arco g1\downbow
+    r2 r4 f\upbow g1\downbow
 
-	aes2 f4 f g f2.
-	r4 f g c g2-> g->
+    aes2 f4 f g f2.
+    r4 f g c g2-> g->
 
-	r2 c4->\ff d-> r2 c4-> d->
-	c-> d-> ees-> des->
-	d!1-> R1
+    r2 c4->\ff d-> r2 c4-> d->
+    c-> d-> ees-> des->
+    d!1-> R1
 
-	c\f aes f g
-	c4 c c c aes aes aes aes f f f f g g g g
+    c\f aes f g
+    c4 c c c aes aes aes aes f f f f g g g g
 
-	ees'2 c4 g ges c2.
-	r4 g c g' ees2 d
-	r4 c g' c aes2 g
-	r4 g, d' g f2 ees
-	r4 ees d c d2 g,
-	r4 ees' d ees ees2 d
-	c1\f~
+    ees'2 c4 g ges c2.
+    r4 g c g' ees2 d
+    r4 c g' c aes2 g
+    r4 g, d' g f2 ees
+    r4 ees d c d2 g,
+    r4 ees' d ees ees2 d
+    c1\f~
 
-	\castlethemetwo
-	c\p~ c~ c~ c
+    \castlethemetwo
+    c\p~ c~ c~ c
 
     \time 3/4
     c2. d ees d c d ees d

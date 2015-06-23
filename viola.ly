@@ -1,56 +1,56 @@
 \include "header.ly"
 
 viola = \relative c' {
-	\set Staff.instrumentName = "Viola  "
-	\clef alto
-	\maintheme
-	r1 r2 <g g'>8\mf r8 r4
+    \set Staff.instrumentName = "Viola  "
+    \clef alto
+    \maintheme
+    r1 r2 <g g'>8\mf r8 r4
 
-	\fullorchpizz
-	g4.\downbow e8~ e4 c r8 f\downbow r g r fis f r %\break
-	\times 2/3 { e4 g c } f d8 e r c r a b g r4
-	g4. e8~ e4 c r8 f r g r fis f r
-	\times 2/3 { e4 g c } f d8 e r c r a b g r4
+    \fullorchpizz
+    g4.\downbow e8~ e4 c r8 f\downbow r g r fis f r %\break
+    \times 2/3 { e4 g c } f d8 e r c r a b g r4
+    g4. e8~ e4 c r8 f r g r fis f r
+    \times 2/3 { e4 g c } f d8 e r c r a b g r4
 
-	r4 e'8 dis d b r c r e, f a r f a b
-	r4 e8 dis d b r c r g' r g g r8 r4
-	r4 e8 dis d b r c r e, f a r f a b
-	r4 <gis dis'>8-> r r <ais d>-> r4 <e c'>8-> r8 r4 r2
+    r4 e'8 dis d b r c r e, f a r f a b
+    r4 e8 dis d b r c r g' r g g r8 r4
+    r4 e8 dis d b r c r e, f a r f a b
+    r4 <gis dis'>8-> r r <ais d>-> r4 <e c'>8-> r8 r4 r2
 
-	c'8\downbow c r c r c d r e c r a g2 c8 c r c r c d r e r8 r4 r2
-	c8 c r c r c d r e c r a g2 e'8 e r e r c e r <d g> r r4 <d, g>8 r r4
-	
-	g'8 e r c r4 c8 r c a' r a c, r r4
-	\times 2/3 { <g g'>4\div <f' b> <f b> } \times 2/3 { <f b>4 <e a> <d g> }
-	<c c'>8 <g g'> r <e f'> <g c> r r4
-	g'8 e r c r4 c8 r c a' r a c, r r4
-	\times 2/3 { d4 g g } \times 2/3 { g4 a b } c4 r r2
+    c'8\downbow c r c r c d r e c r a g2 c8 c r c r c d r e r8 r4 r2
+    c8 c r c r c d r e c r a g2 e'8 e r e r c e r <d g> r r4 <d, g>8 r r4
+    
+    g'8 e r c r4 c8 r c a' r a c, r r4
+    \times 2/3 { <g g'>4\div <f' b> <f b> } \times 2/3 { <f b>4 <e a> <d g> }
+    <c c'>8 <g g'> r <e f'> <g c> r r4
+    g'8 e r c r4 c8 r c a' r a c, r r4
+    \times 2/3 { d4 g g } \times 2/3 { g4 a b } c4 r r2
 
-	\castletheme
-	r4 \times 2/3 { g,8\mf( c des) } r2
-	\time 2/4
-	r2
-	\time 4/4
-	R1*4
+    \castletheme
+    r4 \times 2/3 { g,8\mf( c des) } r2
+    \time 2/4
+    r2
+    \time 4/4
+    R1*4
 
-	aes2\mf f4 c d f2.
-	r4 c f c' aes2 g
+    aes2\mf f4 c d f2.
+    r4 c f c' aes2 g
 
-	c4\f d c d c d c d
-	<c c,>-> <d d,>-> <ees ees,>-> <des des,>->
-	<d! d,!>1-> f8\mf\>( d b g) f'( d b g\!)
-	
-	R1*4
-	c4 c' c, c' aes, aes' aes, aes' f, f' f, f' g, g' g, g'
-	r1 r1 r4 g, c g' ees2 d
+    c4\f d c d c d c d
+    <c c,>-> <d d,>-> <ees ees,>-> <des des,>->
+    <d! d,!>1-> f8\mf\>( d b g) f'( d b g\!)
+    
+    R1*4
+    c4 c' c, c' aes, aes' aes, aes' f, f' f, f' g, g' g, g'
+    r1 r1 r4 g, c g' ees2 d
 
-	r4 c g' c b2 b
-	r4 g, d' g g2 g
-	r4 ges d c d2 g,
-	r4 f' d ees ees2 d <c c,>1~
+    r4 c g' c b2 b
+    r4 g, d' g g2 g
+    r4 ges d c d2 g,
+    r4 f' d ees ees2 d <c c,>1~
 
-	\castlethemetwo
-	c,1~ c~ c~ c
+    \castlethemetwo
+    c,1~ c~ c~ c
 
     \time 3/4
     c2.\mp d ees d c d ees d

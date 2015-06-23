@@ -2,10 +2,10 @@
 \include "bass.ly"
 
 \header {
-	instrument = "Doublebass"
+    instrument = "Doublebass"
 }
 \score {
-	\new Staff <<
+    \new Staff <<
         \set Score.skipBars = ##t
         \bass
     >>

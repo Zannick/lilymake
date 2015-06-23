@@ -1,59 +1,59 @@
 \include "header.ly"
 
 violintwo = \relative c'' {
-	\set Staff.instrumentName = "Violin II  "
-	\clef treble
-	\maintheme
-	c4\mp\downbow r4 r2 r2 g8\mf r r4
-	
-	\fullorchpizz
-	g4.\downbow e8~ e4 c r8 f\downbow r g r fis f r %\break
-	\times 2/3 { e4 g c } f d8 e r c r a b g r4
-	g4. e8~ e4 c r8 f r g r fis f r
-	\times 2/3 { e4 g c } f d8 e r c r a b g r4
+    \set Staff.instrumentName = "Violin II  "
+    \clef treble
+    \maintheme
+    c4\mp\downbow r4 r2 r2 g8\mf r r4
+    
+    \fullorchpizz
+    g4.\downbow e8~ e4 c r8 f\downbow r g r fis f r %\break
+    \times 2/3 { e4 g c } f d8 e r c r a b g r4
+    g4. e8~ e4 c r8 f r g r fis f r
+    \times 2/3 { e4 g c } f d8 e r c r a b g r4
 
-	r4 e'8 dis d b r c r e, f a r f a b
-	r4 e8 dis d b r c r g' r g g r8 r4
-	r4 e8 dis d b r c r e, f a r f a b
-	r4 <c c,>8-> r r <ais ais,>-> r4 <g g,>8-> r8 r4 r2
+    r4 e'8 dis d b r c r e, f a r f a b
+    r4 e8 dis d b r c r g' r g g r8 r4
+    r4 e8 dis d b r c r e, f a r f a b
+    r4 <c c,>8-> r r <ais ais,>-> r4 <g g,>8-> r8 r4 r2
 
-	gis8\downbow gis r gis r gis ais r c g! r f e2
-	gis8 gis r gis r gis ais r c r8 r4 r2
-	gis8 gis r gis r gis ais r c gis r f e2
-	c8 c r c r a c r g' r8 r4 g,8 r8 r4
+    gis8\downbow gis r gis r gis ais r c g! r f e2
+    gis8 gis r gis r gis ais r c r8 r4 r2
+    gis8 gis r gis r gis ais r c gis r f e2
+    c8 c r c r a c r g' r8 r4 g,8 r8 r4
 
-	c'8 g r e r4 e8 r f c' r c f, r8 r4
-	\times 2/3 { g4 f f } \times 2/3 { f e d } c8 g r e' c r8 r4
-	c'8 g r e r4 e8 r f c' r c f, r8 r4
-	\times 2/3 { g4 b b } \times 2/3 { b c b } g4 r4 r2
+    c'8 g r e r4 e8 r f c' r c f, r8 r4
+    \times 2/3 { g4 f f } \times 2/3 { f e d } c8 g r e' c r8 r4
+    c'8 g r e r4 e8 r f c' r c f, r8 r4
+    \times 2/3 { g4 b b } \times 2/3 { b c b } g4 r4 r2
 
-	\castletheme
-	r2 \times 2/3 { g8\mf( c des) } r4
-	\time 2/4 r2
-	\time 4/4 \times 2/3 { c8\mp c c }
-	\repeat unfold 3 { \times 2/3 { c8 c c } }
-	\repeat unfold 4 { \times 2/3 { b8 b b } }
-	\repeat unfold 3 {
-		\repeat unfold 4 { \times 2/3 { c8 c c } }
-		\repeat unfold 4 { \times 2/3 { b8 b b } }
-	}
+    \castletheme
+    r2 \times 2/3 { g8\mf( c des) } r4
+    \time 2/4 r2
+    \time 4/4 \times 2/3 { c8\mp c c }
+    \repeat unfold 3 { \times 2/3 { c8 c c } }
+    \repeat unfold 4 { \times 2/3 { b8 b b } }
+    \repeat unfold 3 {
+        \repeat unfold 4 { \times 2/3 { c8 c c } }
+        \repeat unfold 4 { \times 2/3 { b8 b b } }
+    }
 
-	f'4->\f g-> r2 f4-> g-> r2
-	f4-> g-> a-> ges->
-	g!1->
+    f'4->\f g-> r2 f4-> g-> r2
+    f4-> g-> a-> ges->
+    g!1->
     R1*5
 
-	c,4 c c c aes aes aes aes f f f f g g g g
-	c2 g4 ees ees ges2.
+    c,4 c c c aes aes aes aes f f f f g g g g
+    c2 g4 ees ees ges2.
 
-	r4 g\f c g' ees2 d
-	r4 c g' c d,2 b
-	r4 g d' g c,2 g
-	r4 a aes g g2 ees
-	r4 b' g b b2 b g1
+    r4 g\f c g' ees2 d
+    r4 c g' c d,2 b
+    r4 g d' g c,2 g
+    r4 a aes g g2 ees
+    r4 b' g b b2 b g1
 
-	\castlethemetwo
-	R1*4 \time 3/4 R4*3*8
+    \castlethemetwo
+    R1*4 \time 3/4 R4*3*8
     c,4\f ees-.( g-.) ges a4. r8
     bes4. c8( bes a) g4 d4. r8
     f4 aes-.( c-.) b d4. r8
@@ -164,7 +164,6 @@ violintwo = \relative c'' {
     r g r g r g r g
     \break
 
-	%\set Staff.shortInstrumentName = "tutti "
     r\f g r g r a r a
     r g r g r a r g
     r g r g r a r a

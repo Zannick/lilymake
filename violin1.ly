@@ -1,81 +1,81 @@
 \include "header.ly"
 
 violinone = \relative c'' {
-	\set Staff.instrumentName = "Violin I  "
-	\clef treble
-	\maintheme
-	e8\f\downbow e\upbow r e\downbow r c\downbow e\upbow r <b d g>8\downbow r8 r4 r2
-	
-	\fullorchpizz
-	c4.\downbow g8~ g4 e4 r8 a\downbow r b r ais a r
-	\times 2/3 { g4 c e } a f8 g r e r c d b r4
-	c4. g8~ g4 e r8 a r b r ais a r
-	\times 2/3 { g4 c e } a f8 g r e r c d b r4
+    \set Staff.instrumentName = "Violin I  "
+    \clef treble
+    \maintheme
+    e8\f\downbow e\upbow r e\downbow r c\downbow e\upbow r <b d g>8\downbow r8 r4 r2
+    
+    \fullorchpizz
+    c4.\downbow g8~ g4 e4 r8 a\downbow r b r ais a r
+    \times 2/3 { g4 c e } a f8 g r e r c d b r4
+    c4. g8~ g4 e r8 a r b r ais a r
+    \times 2/3 { g4 c e } a f8 g r e r c d b r4
 
-	r4 g'8 fis f dis r e r g, a c r a c d?
-	r4 g8 fis f dis r e r c' r c c r8 r4
-	r4 g8 fis f dis r e r g, a c r a c d
-	r4 <dis gis,>8-> r8 r8 <d f,>-> r4 <c e,>8-> r8 r4 r2
+    r4 g'8 fis f dis r e r g, a c r a c d?
+    r4 g8 fis f dis r e r c' r c c r8 r4
+    r4 g8 fis f dis r e r g, a c r a c d
+    r4 <dis gis,>8-> r8 r8 <d f,>-> r4 <c e,>8-> r8 r4 r2
 
-	c8\downbow c r c r c d r e c r a g2 c8 c r c r c d r e r8 r4 r2
-	c8 c r c r c d r e c r a g2 e'8 e r e r c e r <g d b> r r4 <g, d b>8 r r4
-	
-	e'8 c r g~ g4 gis a8 f' r f a, r r4
-	\times 2/3 { b4 a' a } \times 2/3 { a g f } e8 c r a g r r4
-	e'8 c r g~ g4 gis a8 f' r f a, r r4
-	\times 2/3 { g4 f' f } \times 2/3 { f e d} c4 r4 r2
+    c8\downbow c r c r c d r e c r a g2 c8 c r c r c d r e r8 r4 r2
+    c8 c r c r c d r e c r a g2 e'8 e r e r c e r <g d b> r r4 <g, d b>8 r r4
+    
+    e'8 c r g~ g4 gis a8 f' r f a, r r4
+    \times 2/3 { b4 a' a } \times 2/3 { a g f } e8 c r a g r r4
+    e'8 c r g~ g4 gis a8 f' r f a, r r4
+    \times 2/3 { g4 f' f } \times 2/3 { f e d} c4 r4 r2
 
-	\castletheme
-	r2 r4 \times 2/3 { g'8\mf( c des }
-	\time 2/4 \repeat tremolo 8 g16)
-	\time 4/4
-	\repeat unfold 4 { \times 2/3 { f,8 f f } }
-	\repeat unfold 4 { \times 2/3 { g8 g g } }
-	\repeat unfold 4 { \times 2/3 { aes8 aes aes } }
-	\repeat unfold 4 { \times 2/3 { g8 g g } }
+    \castletheme
+    r2 r4 \times 2/3 { g'8\mf( c des }
+    \time 2/4 \repeat tremolo 8 g16)
+    \time 4/4
+    \repeat unfold 4 { \times 2/3 { f,8 f f } }
+    \repeat unfold 4 { \times 2/3 { g8 g g } }
+    \repeat unfold 4 { \times 2/3 { aes8 aes aes } }
+    \repeat unfold 4 { \times 2/3 { g8 g g } }
 
-	\repeat unfold 4 { \times 2/3 { f8 f f } }
-	\repeat unfold 4 { \times 2/3 { g8 g g } }
-	\repeat unfold 4 { \times 2/3 { aes8 aes aes } }
-	\repeat unfold 4 { \times 2/3 { g8 g g } }
+    \repeat unfold 4 { \times 2/3 { f8 f f } }
+    \repeat unfold 4 { \times 2/3 { g8 g g } }
+    \repeat unfold 4 { \times 2/3 { aes8 aes aes } }
+    \repeat unfold 4 { \times 2/3 { g8 g g } }
 
-	<aes c>4->\f <b d>-> r2 <aes c>4-> <b d>-> r2
-	<aes c>4-> <b d>-> <c ees>-> <bes des>->
-	<b d!>2-> f'8\f\>( d b g) f( d b g) r2\!
+    <aes c>4->\f <b d>-> r2 <aes c>4-> <b d>-> r2
+    <aes c>4-> <b d>-> <c ees>-> <bes des>->
+    <b d!>2-> f'8\f\>( d b g) f( d b g) r2\!
 
-	c,8\mf\<( ees g c\!) c\>( g ees c\!)
-	c\<( ees ges aes\!) c\>( aes ges ees\!)
-	<< c( s8\simbelow >> f aes c) c( aes f c)
-	b( ees g b) b( g ees b)
-	
-	c( ees g c) c( g ees c)
-	c( ees ges aes) c( aes ges ees)
-	c( f aes c) c( aes f c)
-	b( ees g b) b( g ees b)
+    c,8\mf\<( ees g c\!) c\>( g ees c\!)
+    c\<( ees ges aes\!) c\>( aes ges ees\!)
+    << c( s8\simbelow >> f aes c) c( aes f c)
+    b( ees g b) b( g ees b)
+    
+    c( ees g c) c( g ees c)
+    c( ees ges aes) c( aes ges ees)
+    c( f aes c) c( aes f c)
+    b( ees g b) b( g ees b)
 
-	ees'2\f c4 g ges c2.
-	r4 g c g' ees2 d
-	r4 c g' c <aes d,>2 g
-	r4 g, d' g <f c>2 ees
-	r4 ees d c d2 g,2
-	r4 ees' d ees ees2 d c1
+    ees'2\f c4 g ges c2.
+    r4 g c g' ees2 d
+    r4 c g' c <aes d,>2 g
+    r4 g, d' g <f c>2 ees
+    r4 ees d c d2 g,2
+    r4 ees' d ees ees2 d c1
 
-	\castlethemetwo
-	r8\solo c,4( des16 ees) \times 4/5 { c8( des e g bes) }
-	c4. \times 2/3 { des16( ees c32 bes } c2)
-	e16( g) e32( des16.) c16 bes c des
-	\times 4/5 { c8( bes g e) des }
-	bes8\noBeam \times 2/3 { c des c~ } c2~ c8
+    \castlethemetwo
+    r8\solo c,4( des16 ees) \times 4/5 { c8( des e g bes) }
+    c4. \times 2/3 { des16( ees c32 bes } c2)
+    e16( g) e32( des16.) c16 bes c des
+    \times 4/5 { c8( bes g e) des }
+    bes8\noBeam \times 2/3 { c des c~ } c2~ c8
 
-	\time 3/4
-	r4\tutti g--\mp( g--) r4 a2 r4 bes--( bes--) r4 a2
-	r4 g\simbelow( g) r4 a2 r4 bes( bes) r4 a2
-	r4 g( g) r4 a2 r4 bes( bes) r4 a2
-	r4 c( c) r4 d2 r4 ees( ees) r4 f2
-	r4 g,( g) r4 a2 r4 bes( bes) r4 a2
-	r4 c( c) r4 d2 r4 ees( ees) r4 f2
+    \time 3/4
+    r4\tutti g--\mp( g--) r4 a2 r4 bes--( bes--) r4 a2
+    r4 g\simbelow( g) r4 a2 r4 bes( bes) r4 a2
+    r4 g( g) r4 a2 r4 bes( bes) r4 a2
+    r4 c( c) r4 d2 r4 ees( ees) r4 f2
+    r4 g,( g) r4 a2 r4 bes( bes) r4 a2
+    r4 c( c) r4 d2 r4 ees( ees) r4 f2
 
-	c'4.\mf( aes8 ges aes) g?2.
+    c'4.\mf( aes8 ges aes) g?2.
     c4.( aes8 ges aes) g?2.
     \once \override DynamicTextSpanner #'dash-period = #-1
     f'4.\cresc( d8 c d) b2.

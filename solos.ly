@@ -59,8 +59,8 @@ solo = {
 }
 
 violinsolo = \relative c'' {
-	\set Staff.instrumentName = "Solo Violin  "
-	\clef treble
+    \set Staff.instrumentName = "Solo Violin  "
+    \clef treble
 
     \alongrest
     \solo
