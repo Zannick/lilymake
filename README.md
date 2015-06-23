@@ -1,0 +1,2 @@
+# lilymake
+Lilypond Makefile
