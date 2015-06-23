@@ -15,7 +15,7 @@ in the new score.
 
 * You structure your project as follows:
   - Each instrument is in its own file, eg. `cello.ly`. This file defines
-    a lilypond variable (eg. `violinone`).
+    a lilypond variable (eg. `cello`).
   - Each instrument has a sheet file which has `-part` appended to the name, eg.
     `cello-part.ly`. This file imports the main instrument file and makes
     reference to the variable defined within in order to create the pdf
